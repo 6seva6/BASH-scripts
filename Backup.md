@@ -37,6 +37,6 @@ test -d $HOME/$dir_name || mkdir -m 700 $HOME/$dir_name
 find $path -path $HOME/$dir_name -prune -o \
 -name "*$file_suffix" -exec cp {} $HOME/$dir_name/ \;
 # Archive the folder
-tar -cvf "$HOME/$(date +%d-%m-%Y)_${dir_name}.tar" "$HOME/$dir_name" && rm -r $HOME/$dir_name/
+tar -czvf "$HOME/$(date +%d-%m-%Y)_${dir_name}.tar" "$HOME/$dir_name" && rm -r $HOME/$dir_name/
 exit 0 
 ```

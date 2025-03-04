@@ -73,7 +73,7 @@ check_urls() {
   return 0
 }
 
-# 8. Invoke the function with /urls.txt
+# 8. Invoke the function with file_path parameters
 
 check_urls "$file_path"
 exit_code=$?

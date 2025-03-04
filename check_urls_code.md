@@ -4,8 +4,8 @@ Objective: We have a file containing a list of URLs. Our task is to check the re
 
 Requirements:
 
-    - If a link returns a status code greater than 400 and less than 599, indicating an unavailable response, stop further checks immediately.
-    - The entire process must complete within a time limit of 1 minute.
+- If a link returns a status code greater than 400 and less than 599, indicating an unavailable response, stop further checks immediately.
+- The entire process must complete within a time limit of 1 minute.
     
 ```bash
 #!/usr/bin/env bash

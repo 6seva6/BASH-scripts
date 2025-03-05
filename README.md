@@ -22,8 +22,8 @@ Requirements:
 - The entire process must complete within a time limit of 1 minute.
 # Backup and archiving
 
-2. Scenario: Backup Specific Files by Suffix
-## File name - Backup
+## 2. Scenario: Backup Specific Files by Suffix
+File name - Backup
 
 Objective: We need to back up specific files with a designated suffix from a directory. To accomplish this, the following steps are required:
   

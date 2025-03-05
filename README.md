@@ -37,5 +37,5 @@ Objective: We need to back up specific files with a designated suffix from a dir
   - Search and Store Files:
       - Locate and transfer the files with the specified suffix to the backup folder.
 
-  - Archive the Data:
-    - Compress the collected files into an archive for efficient storage.
+- Archive the Data:
+  - Compress the collected files into an archive for efficient storage.

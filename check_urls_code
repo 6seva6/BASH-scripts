@@ -1,12 +1,3 @@
-## Scenario: Check Response Codes of Links from a File
-
-Objective: We have a file containing a list of URLs. Our task is to check the response codes for each link.
-
-Requirements:
-- If a link returns a status code greater than 400 and less than 599, indicating an unavailable response, stop further checks immediately.
-- The entire process must complete within a time limit of 1 minute.
-    
-```bash
 #!/usr/bin/env bash
 #The scripta work properly if following conditions matched:
 #-Every link begin from new line
@@ -83,4 +74,3 @@ if [[ $exit_code -eq 0 ]]; then
 else
   echo "[SUMMARY] One of URL was unavailable or time limit reached."
 fi
-```

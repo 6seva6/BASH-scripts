@@ -12,8 +12,8 @@ Each file contains:
 This repository serves as a **learning resource** and a **proof of hands-on experience** with BASH.
 
 # Scenarios:
-1. Scenario: Check Response Codes of Links from a File
-## File name - check_urls_code
+## 1. Scenario: Check Response Codes of Links from a File
+File name - check_urls_code
 
 Objective: We have a file containing a list of URLs. Our task is to check the response codes for each link.
 
